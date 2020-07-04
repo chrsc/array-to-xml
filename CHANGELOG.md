@@ -2,6 +2,57 @@
 
 All notable changes to `array-to-xml` will be documented in this file
 
+## 2.12.1 - 2020-06-17
+
+- add XML prettification (#136)
+
+## 2.11.2 - 2019-08-21
+
+- fix XML structure when using numeric keys
+
+## 2.11.1 - 2019-07-25
+
+- do not interpret "0" as a non-empty value
+
+## 2.11.0 - 2019-09-26
+
+- drop support for PHP 7.1
+
+## 2.10.0 - 2019-09-26
+
+- add `setDomProperties`
+
+## 2.9.0 - 2019-05-06
+
+- add support for numeric keys
+
+## 2.8.1 - 2019-03-15
+
+- fix tests
+- drop support for PHP 7.0
+
+## 2.8.0 - 2018-11-29
+
+- added support for mixed content 
+
+## 2.7.3 - 2018-10-30
+- fix for `DomExeception`s being thrown
+
+## 2.7.2 - 2018-09-17
+- remove control characters
+
+## 2.7.1 - 2018-02-02
+- fix setting attributes
+
+## 2.7.0 - 2017-09-07
+- allow wrapping data in a CDATA section
+
+## 2.6.1- 2017-08-29
+- add fix for multiple empty/self-closing child elements
+
+## 2.6.0 - 2017-08-25
+- add support for naming a root element and adding properties to it
+
 ## 2.5.2 - 2017-08-03
 - avoid pulling in the snapshot package on install
 
